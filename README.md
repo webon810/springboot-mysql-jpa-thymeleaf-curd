@@ -33,6 +33,12 @@ CREATE TABLE `product` (
 
 ### 9. Implement List Products Feature
 
+```
+//under index.html
+<a th:href="@{/edit/{id}(id=${product.id})}">Edit</a>
+<a th:href="@{/delete/{id}(id=${product.id})}">Delete</a>
+```
+
 ### 10. Implement Create Product Feature
 
 ### 11. Implement Edit Product Feature
